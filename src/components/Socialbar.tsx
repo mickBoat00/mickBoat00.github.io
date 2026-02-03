@@ -1,8 +1,8 @@
 import { Github, Twitter, Linkedin } from "lucide-react";
 
-const Socialbar = () => {
+const SocialSidebar = () => {
   const socials = [
-    { icon: Github, href: "#" },
+    { icon: Github, href: "https://github.com/mickBoat00" },
     { icon: Twitter, href: "#" },
     { icon: Linkedin, href: "#" },
   ];
@@ -18,4 +18,4 @@ const Socialbar = () => {
   );
 };
 
-export default Socialbar
+export default SocialSidebar;

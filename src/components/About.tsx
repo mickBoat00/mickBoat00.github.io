@@ -1,4 +1,6 @@
 
+import profileImage from "@/assets/ai.png";
+
 const About = () => {
   const thingsIDo = [
     "tenetur dolor dolores! Fugit eos at provident tempore.",
@@ -28,11 +30,11 @@ const About = () => {
         <div className="grid lg:grid-cols-5 gap-12">
           <div className="lg:col-span-3 space-y-6 order-2 lg:order-1">
             <p className="text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium nostrum vero dicta sapiente, 
-              commodi neque optio doloremque! Quam, velit. 
-              Qui voluptatum recusandae sint perspiciatis quis maxime ratione ullam voluptates 
-              assumenda blanditiis vero iste fugiat quas eum molestias ipsum quo cupiditate rerum, 
-              tenetur dolor dolores! Fugit eos at provident tempore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Veritatis, labore aut! Reiciendis dolore, hic saepe autem non culpa ad! 
+              Eaque alias officia cupiditate dolores rem, unde cumque adipisci expedita tempore 
+              ut porro, possimus dolor. Reprehenderit, quis fugiat. Sapiente, excepturi quis 
+              voluptatem quas vitae non inventore repudiandae voluptatum rerum! Sed, recusandae.
             </p>
 
             <div>
@@ -75,17 +77,18 @@ const About = () => {
           <div className="lg:col-span-2 flex justify-center order-1 lg:order-2">
             <div className="relative w-64 h-72">
               <div className="absolute inset-0 border-2 border-primary rounded translate-x-4 translate-y-4"></div>
-              {/* <img
+              <img
                 src={profileImage}
-                alt="Ayush Anand"
+                alt="Michael Boateng"
                 className="relative z-10 w-full h-full object-cover rounded grayscale hover:grayscale-0 transition-all"
-              /> */}
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
+

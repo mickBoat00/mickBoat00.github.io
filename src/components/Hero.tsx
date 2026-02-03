@@ -1,10 +1,9 @@
-
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 lg:px-24 pt-20">
       <div className="max-w-3xl">
         <p className="font-mono text-primary mb-4">Hi, my name is</p>
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-foreground/65 mb-2">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-foreground/50 mb-2">
           Michael Boateng.
         </h1>
         <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-foreground mb-6">
@@ -25,6 +24,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;
