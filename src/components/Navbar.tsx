@@ -1,4 +1,4 @@
-import { Panda, Menu, X, Github, Twitter, Linkedin } from "lucide-react";
+import { Panda, Menu, X, Github, Linkedin } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -28,14 +28,13 @@ const Navbar = () => {
   const navItems = [
     { number: "01.", label: "About", href: "#about" },
     { number: "02.", label: "Experience", href: "#experience" },
-    { number: "03.", label: "Work", href: "#work" },
+    { number: "03.", label: "Projects", href: "#projects" },
     { number: "04.", label: "Contact", href: "#contact" },
   ];
 
   const socials = [
     { icon: Github, href: "https://github.com/mickBoat00" },
-    { icon: Twitter, href: "#" },
-    { icon: Linkedin, href: "#" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/michael-boateng-4376a0168/" },
   ];
 
   return (
@@ -46,7 +45,7 @@ const Navbar = () => {
         }`}
       >
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="#" className="text-primary">
+          <a href="/" className="text-primary">
             <Panda size={32} />
           </a>
           

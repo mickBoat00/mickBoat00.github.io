@@ -1,7 +1,7 @@
 import About from './components/About'
 import Education from './components/Education'
 import Experience from './components/Experience'
-import FeatureProjects from './components/FeatureProjects'
+import Projects from './components/Projects'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Socialbar from './components/Socialbar'
@@ -18,7 +18,7 @@ const App = () => {
         <About/>
         <Education/>
         <Experience/>
-        <FeatureProjects />
+        <Projects />
         <Contact />
       </main>
     </div>

@@ -13,14 +13,14 @@ const Education = () => {
             <span className="italic">2020</span>
           </p>
 
-          <ul className="space-y-2 mt-4">
+          {/* <ul className="space-y-2 mt-4">
             <li className="text-muted-foreground">
               <span className="font-semibold text-foreground">Courses:</span>{" "}
               <span className="italic">
                 Linear and Vector Algebra, Calculus, Data Structure and Algorithms
               </span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

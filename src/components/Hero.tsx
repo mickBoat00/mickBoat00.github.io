@@ -17,7 +17,7 @@ const Hero = () => {
           <a href="#contact" className="outline-button text-center">
             Connect with me!
           </a>
-          <a href="#" className="outline-button text-center">
+          <a href="#projects" className="outline-button text-center">
             Check out my projects
           </a>
         </div>
