@@ -10,7 +10,7 @@ const Hero = () => {
           I am a web, cloud and AI developer.
         </h2>
         <p className="text-foreground/70 max-w-xl mb-10 text-base md:text-lg leading-relaxed">
-          I am a software engineer with a strong focus on Backend Engineering and cloud computing. 
+          I am a software engineer with a keen interest in backend engineering, artificial intelligence and cloud computing. 
           I love solving problems by combining cloud resources to design and build scalable, secure software.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">

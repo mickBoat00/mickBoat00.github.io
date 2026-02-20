@@ -57,7 +57,7 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <a href="#" className="font-mono text-xs border border-primary text-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors">
+            <a href="/Resume.pdf" target="_blank" className="font-mono text-xs border border-primary text-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors">
               Resume
             </a>
           </div>
